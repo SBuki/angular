@@ -1,0 +1,12 @@
+<div>
+  <h1>Listado de palnetas</h1>
+  <div>
+    <div>
+      <app-planet-list-item
+        *ngFor="let planetItem of planets"
+        [planet]="planetItem"
+      >
+      </app-planet-list-item>
+    </div>
+  </div>
+</div>
